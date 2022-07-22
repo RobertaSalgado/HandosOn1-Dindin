@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: #2E948A;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px
+}
+
+.header img{
+    max-width: 180px;
+    height: auto;
+
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* CSS do Header */
+/* media query  para o header  e footer pra celular */
+@media only screen and (max-widht: 767px) {
+
+    .header img{
+        max-width: 100px;
+        height: auto;
+    }
+
+    .header a{
+        font-size: 12px;
+        margin: 5px;
+    }
+}
+
+/* media query  para o header  e footer pra tablet */
+@media only screen and (max-widht: 767px) and (max-widht: 1024px){
+
+    .header img{
+        max-width: 100px;
+        height: auto;
+    }
+
+    .header a{
+        font-size: 12px;
+        margin: 5px;
+    }
+}
